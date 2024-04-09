@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Interacción con JSON Server</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Tiempo</h1>
+      <form id="buscar-form">
+        <label for="search">Buscar:</label>
+        <input
+          placeholder="Ciudad"
+          type="text"
+          id="search"
+          name="search"
+          required
+        />
+        <button type="submit" class="search">Buscar</button>
+      </form>
+
+      <div id="datos-clima">
+        <h2>Condiciones climáticas</h2>
+        <p id="p_nombre-lugar"></p>
+        <p id="p_temperatura"></p>
+        <p id="p_viento"></p>
+        <p id="p_clima"></p>
+      </div>
+
+      <h2>Crear Publicación</h2>
+      <form id="create-post-form">
+        <label for="lugar">Lugar:</label>
+        <input type="text" id="lugar" name="lugar" required /><br />
+        <label for="title">Temperatura:</label>
+        <input type="text" id="temperatura" name="temperatura" required /><br />
+        <label for="viento">Viento:</label>
+        <input type="text" id="viento" name="viento" required /><br />
+        <label for="clima">Clima:</label>
+        <input type="text" id="clima" name="clima" required /><br />
+        <button type="submit" class="crear" id="crear-ciudad-btn">Crear</button>
+        <button type="button" class="eliminar" id="eliminar-ciudad-btn">
+          Eliminar
+        </button>
+        <button type="button" class="editar" id="editar-ciudad-btn">
+          Editar
+        </button>
+      </form>
+    </div>
+
+    <script src="index.js"></script>
+  </body>
+</html>

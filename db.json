@@ -1,0 +1,25 @@
+{
+    "ciudades": [
+      {
+        "nombre": "Madrid",
+        "temperatura": 10,
+        "velocidadViento": 31,
+        "descripcionClima": "Overcast",
+        "id": "a41f"
+      },
+      {
+        "nombre": "asd",
+        "temperatura": 10,
+        "velocidadViento": 31,
+        "descripcionClima": "Overcast",
+        "id": "c1d6"
+      },
+      {
+        "id": "fc4a",
+        "nombre": "Beijing",
+        "temperatura": -6,
+        "velocidadViento": 3.6,
+        "descripcionClima": "Sunny"
+      }
+    ]
+  }
